@@ -1,9 +1,16 @@
-import React from 'react';
+
 import "./Navbar.css";
 import { Link } from 'react-router-dom';
+import React, { useState } from "react";
+import useFirebase from "../../Hook/useFirebase";
 
 
 const Navbar = () => {
+
+    const { handleLogout, user } = useFirebase();
+
+    const [email, setEmail] = useState("");
+    const [password, setPassword] = useState("");
     return (
         <div>
             <div className="navbar-container">
@@ -28,10 +35,17 @@ const Navbar = () => {
                             </div>
                         </div>
                         <div className="col-md-4">
-                            <div className=" text-end me-5">
-                                <button className=" m-2 btn btn-dark">SignUp</button>
-                                <span>Or</span>
-                                <button className=" m-2 btn btn-dark">LogIn</button>
+                            <div className=" text-end m-3 me-5">
+                                {user.email ? (
+                                    <button onClick={handleLogout} className="btn btn-outline-danger">
+                                        LogOut
+                                    </button>
+                                ) : (
+                                    <Link to="/login">
+                                        <button className="btn btn-outline-dark">Log in</button>
+                                    </Link>
+                                )}
+                                <p  className="mb-5 fw-bold text-secondary">{user.displayName}</p>
                             </div>
                         </div>
                     </div>

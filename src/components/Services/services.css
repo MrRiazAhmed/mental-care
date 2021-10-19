@@ -1,0 +1,11 @@
+.cart {
+    background-color: rgb(241, 245, 250);
+}
+
+.card {
+    transition: 0.5s;
+    border-radius: 5px;
+  }
+  .card:hover {
+    box-shadow: 4px 5px 10px gray;
+  }

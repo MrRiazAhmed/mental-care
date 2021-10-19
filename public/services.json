@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "title": "Depression Therapy",
+        "des": "When you’re depressed, it can feel like you’ll never get out from under a dark shadow. However, even the most severe depression is treatable. So, if your depression is keeping you from living the life you want to, don’t hesitate to seek help. From therapy to medication to healthy lifestyle changes, there are many different treatment options available.",
+        "info": "When you’re depressed, it can feel like you’ll never get out from under a dark shadow.",
+        "img": "https://talkingminds.elipso.site/wp-content/uploads/sites/26/2021/06/service_5.png"
+    },
+    {
+        "id": 2,
+        "title": "Couples Counseling ",
+        "des": " is estimated that nearly half of all married couples get divorced and about one in five marriages experience distress at some time. Challenges with affection, communication, disagreements and fears of divorce are some of the most common reasons couples reach out for help. Couples who are dissatisfied with their relationship may turn to a variety of sources for help including online courses, self-help books, retreats, workshops, and couples counseling",
+        "info": "is estimated that nearly half of all married couples get divorced and about one in five marriages",
+        "img": "https://talkingminds.elipso.site/wp-content/uploads/sites/26/2021/06/service_1-1.png"
+    },
+    {
+        "id": 3,
+        "title": "Individual Therapy",
+        "des": "Individual therapy is one type of psychotherapy in which a trained professional helps a single person work through personal issues they have been facing. It is an effective treatment for a variety of emotional difficulties and mental illnesses. Also known as talk therapy, it can help improve or control symptoms that influence an individuals well-being.",
+        "info": "Individual therapy is one type of psychotherapy in which a trained professional helps a single person",
+        "img": "https://talkingminds.elipso.site/wp-content/uploads/sites/26/2021/06/service_4.png"
+    },
+    {
+        "id": 4,
+        "title": "Relationships​",
+        "des": "We all have stressful experiences from time to time because stress can come from so many sources. Finances. Family pressures. Work. Relationships.We all have stressful experiences from time to time because stress can come from so many sources. Finances. Family pressures. Work. Relationships.We all have stressful experiences from time to time because stress can come from so many sources. Finances. Family pressures. Work. Relationships.",
+        "info": "We all have stressful experiences from time to time because stress can come from so many sources.",
+        "img": "https://talkingminds.elipso.site/wp-content/uploads/sites/26/2021/06/service_2.png"
+    },
+    {
+        "id": 5,
+        "title": "Anxiety Disorder",
+        "des": "Anxiety disorders are a type of mental health condition. Anxiety makes it difficult to get through your day. Symptoms include feelings of nervousness, panic and fear as well as sweating and a rapid heartbeat. Treatments include medications and cognitive behavioral therapy. Your healthcare can design a treatment plan thats best for you.",
+        "info": "Anxiety disorders are a type of mental health condition.",
+        "img": "https://talkingminds.elipso.site/wp-content/uploads/sites/26/2021/06/service_6.png"
+    },
+    {
+        "id": 6,
+        "title": "Children Therapy​",
+        "des": "It is important to identify and understand when child therapy could help your child. Trained child social workers and therapists can help kids and teens through tough times. There are many great articles on how to identify your child’s needs that go in-depth about behavior issues and signs to look for. ",
+        "info": "It is important to identify and understand when child therapy could help your child.",
+        "img": "https://talkingminds.elipso.site/wp-content/uploads/sites/26/2021/06/service_3.png"
+    }
+]
