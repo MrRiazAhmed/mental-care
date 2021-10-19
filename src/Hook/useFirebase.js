@@ -24,7 +24,7 @@ const useFirebase = () => {
     const handleGoogleLogin = () => {
         signInWithPopup(auth, provider)
         .then((result) => {
-            setUser(result.user);
+            console.log(result.user);
             setError("");
             })
             .catch((error) => setError(error.message));
@@ -35,10 +35,7 @@ const useFirebase = () => {
         onAuthStateChanged(auth, (user) => {
             if (user) {
                 setUser(user);
-                const uid = user.uid;
-            } else {
-                // User is signed out
-                // ...
+               
             }
         });
     }, []);
@@ -75,7 +72,8 @@ const useFirebase = () => {
     const handleUserRegister = (email, password) => {
         createUserWithEmailAndPassword(auth, email, password)
           .then((result) => {
-            console.log(result.user);
+            const user = (result.user);
+            console.log(user)
           })
           .catch((error) => {
             const errorMessage = error.message;

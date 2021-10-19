@@ -22,9 +22,8 @@ const SignUp = () => {
 
 
     const handleRegister = (e) => {
+        handleUserRegister( email, password);
         e.preventDefault();
-
-        handleUserRegister(email, password);
 
     };
 
